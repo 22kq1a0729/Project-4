@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Registration form</title>
+<style>
+    h1{
+       
+        color:rgb(20, 26, 214);
+    }
+   body{ background-color:skyblue;
+   background-image: url("reg.jpg");
+   background-size: cover;}
+   h1{
+    position: relative;
+               animation: repeatit 6s linear 0s infinite alternate;
+    text-shadow: 5px 5px 10px rgb(98, 178, 231);
+   }
+ 
+
+table{
+ background-color: rgb(98, 90, 238);
+ color: white;
+}
+table{
+    font-style: italic;
+}
+    
+
+
+</style>
+</head>
+<body>
+  
+<marquee><h1>Registration Form...</h1></marquee> 
+<form name="myform" action="contact.html">
+    <center>
+<table cellpadding="10" cellspacing="10">
+<tr><td>First Name:</td><td><input type="text" name="uname" placeholder="name" autofocus></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="uname" placeholder="Last name"></td></tr>
+<tr><td>Middle Name:</td><td><input type="text" name="uname" placeholder="Middle name"></td></tr>
+<tr><td>Email:</td><td><input type="email" name="mail"placeholder="mail"></td></tr>
+<tr><td>Gender:</td><td><input type="radio" name="gender">Male<input type="radio" name="gender">female</td></tr>
+<tr><td>Hobbies:</td><td><input type="checkbox" name="sing">singing<input type="checkbox" name="play">playing<input type="checkbox" name="dance">dancing<input type="checkbox" name="eat">eating</td></tr>
+<tr><td>Date of birth:</td><td><input type="date" name="uname"></td></tr>
+<tr><td> Your Mobile no:</td><td><input type="tel" name="personal" id="perl"pattern="[0-9]{10}" title="the 10 digits number" placeholder="ph no"></td></tr>
+    <br>
+<tr><td>Photo:</td><td><input type="file" name="uname"></td></tr>
+<tr><td>Select Course:</td><td><select name="CSIT">
+    <option name="">CSE</option>
+    <option name="">CSIT</option>
+    <option name="">CSER</option>
+    <option name="">ECE</option>
+</select>
+</td></tr>
+
+<tr><td><input type="submit"></td></tr>
+
+</table>
+</center>
+</form>
+
+</html>

@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Registration form</title>
+<style>
+  
+    body{
+        background-image: url("logo.jpeg");
+    background-size: cover;}
+    h3{
+               text-shadow: 5px 5px 10px rgb(80, 18, 196);
+              }
+              h1{  text-shadow: 5px 5px 10px rgb(15, 4, 37);
+            color:rgb(245, 242, 249);}
+    
+   h1{ position: relative;
+               animation: repeatit 6s linear 0s infinite alternate;
+   }
+   @keyframes repeatit {
+                from {left :0;}
+                to{left: 80%;}
+   }
+   @media Screen and (min-width:368px) {
+                        body {
+                              background-color: rgb(251, 68, 59);
+                        }
+                    }
+                    @media Screen and (min-width:568px) {
+                        body {
+                              background-color: rgb(145, 79, 219);
+                        }
+                    }
+                    @media Screen and (min-width:868px) {
+                        body {
+                              background-color: rgb(15, 197, 224);
+                        }
+                    }
+                    @media Screen and (min-width:1268px) {
+                        body {
+                              background-color: rgb(216, 44, 118);
+                        }
+                    }
+                    h2{
+                        font-style: italic;
+                    }
+                    h1{
+                        font-style: italic;
+                    }
+                   
+    </style>
+</head>
+<body>
+<h1>This is Login Form</h1>
+
+<center><h2>Login Form:</h2></center>
+<center>
+<form action="Registration.html"><h2><tr><td>UserName:</td><td><input type= "text"name="uname" autofocus ></td></tr><br>
+    <tr><td>Password:</td><td><input type="password" name="pass"></td></tr><br>
+    <tr><td><input type="submit"></td></tr></h2></center></form>
+ 
+</body>
+</html>
